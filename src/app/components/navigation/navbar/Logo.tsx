@@ -35,7 +35,7 @@ const Logo = () => {
   return (
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-        <p className="font-mono text-xl text-center font-normal hover:underline decoration-red-500">
+        <p className="font-mono text-xl text-center font-normal hover:text-red-500">
           Ben Warren
         </p>
       </Link>
