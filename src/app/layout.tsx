@@ -17,12 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <main className="flex min-h-screen flex-col bg-gradient-to-tr from-gray-100 to-white">
-          <Navigation />
+      <body className={`${inter.className} flex min-h-screen flex-col`}>
+        <Navigation />
 
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   );
