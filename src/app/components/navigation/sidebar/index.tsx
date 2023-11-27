@@ -33,7 +33,7 @@ const Sidebar = ({
 
         <ul className="sidebar-nav text-center leading-relaxed text-xl">
           <li>
-            <Link href="/about" onClick={toggle}>
+            <Link href="/#about" onClick={toggle}>
               <p className="hover:underline">About Me</p>
             </Link>
           </li>
