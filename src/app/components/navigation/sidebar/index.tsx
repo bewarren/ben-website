@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Logo from "../navbar/Logo";
 
 const Sidebar = ({
   isOpen,
@@ -16,6 +17,7 @@ const Sidebar = ({
           top: ` ${isOpen ? "0" : "-100%"}`,
         }}
       >
+        <Logo />
         <button className="absolute right-0 p-5" onClick={toggle}>
           {/* Close icon */}
           <svg

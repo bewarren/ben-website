@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col items-center pt-20  min-h-screen justify-around">
         <div className="flex flex-col items-center">
           <h2 className="text-4xl mt-6 text-center">
-            Software Developer, Data Scientist
+            Software Developer, Data Scientist, Physicist
           </h2>
           <h4 className="text-2xl text-center leading-normal mt-16 mx-10">
             I love building end-to-end applications, messing around with data,
