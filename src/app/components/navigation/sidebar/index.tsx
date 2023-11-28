@@ -36,17 +36,17 @@ const Sidebar = ({
         <ul className="sidebar-nav text-center leading-relaxed text-xl">
           <li>
             <Link href="/#about" onClick={toggle}>
-              <p className="hover:underline">About Me</p>
+              <p className="hover:text-red-500 font-medium text-lg">About Me</p>
             </Link>
           </li>
           <li>
             <Link href="/projects" onClick={toggle}>
-              <p className="hover:underline">Projects</p>
+              <p className="hover:text-red-500 font-medium text-lg">Projects</p>
             </Link>
           </li>
           <li>
             <Link href="/blog" onClick={toggle}>
-              <p className="hover:underline">Blog</p>
+              <p className="hover:text-red-500 font-medium text-lg">Blog</p>
             </Link>
           </li>
         </ul>
