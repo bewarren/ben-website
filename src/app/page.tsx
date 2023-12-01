@@ -8,20 +8,22 @@ import coding from "../../assets/coding.jpg";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <div className="flex flex-col items-center pt-20  min-h-screen justify-around">
-        <div className="flex flex-col items-center">
-          <h2 className="text-4xl mt-6 text-center">
-            Software Developer, Data Scientist, Physicist
-          </h2>
-          <h4 className="text-2xl text-center leading-normal mt-16 mx-10">
-            I love building end-to-end applications, messing around with data,
-            and talking about physics.
-          </h4>
+      <div className="flex flex-col items-center  min-h-screen justify-around ">
+        <div className="relative w-full max-x-xl">
+          <div className="absolute top-0 left-62 w-96 h-96 bg-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob"></div>
+          <div className="absolute top-0 right-20 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-4 left-30 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div>
+          <div className="absolute -bottom-4 right-20 w-96 h-96 bg-green-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div>
+          <div className="flex flex-col items-center -mt-20">
+            <h2 className="text-6xl text-center font-semibold">Hi, I'm Ben</h2>
+            <h4 className="text-4xl text-center leading-normal mt-16 mx-10 font-medium">
+              I am a full stack developer based in Cape Town.
+            </h4>
+          </div>
         </div>
-        <Image src={coding} alt="code" className="w-9/12 mt-20" />
       </div>
       <div
-        className="flex flex-col min-h-screen justify-around bg-sky-950 pt-20"
+        className="flex flex-col min-h-screen justify-around bg-red-800 pt-20"
         id="about"
       >
         <div className="px-10 h-max ">
