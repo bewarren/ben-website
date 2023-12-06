@@ -30,7 +30,7 @@ export default function Home() {
           <h1 className="text-4xl text-white text-center ">About me </h1>
           <div className="flex lg:flex-row md:flex-col sm:flex-col flex-col align-middle my-32 items-center">
             <Image src={me} alt="my image" className="rounded-md  w-72 h-72 " />
-            <p className="md:text-2xl sm:text-xl tracking-wide leading-loose text-white px-20 lg:mt-0 mt-20">
+            <p className="text-2xl tracking-wide leading-loose text-white md:px-20 sm:px-10 px-10 lg:mt-0 mt-20">
               Hi, I'm Ben. I am a Cape Town-based full-stack developer, with a
               physics and data science background. I have worked as a full-stack
               developer at Skybound Capital since 2021, building internal tools
