@@ -30,14 +30,14 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             <ul className="hidden md:flex gap-x-8">
               <li>
                 <Link href="/#about">
-                  <p className="hover:text-red-500 font-medium text-lg">
+                  <p className="hover:text-red-600  text-red-400 font-medium text-lg">
                     About me
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="/projects">
-                  <p className="hover:text-red-500 font-medium text-lg">
+                  <p className="hover:text-red-600  text-red-400 font-medium text-lg">
                     Projects
                   </p>
                 </Link>

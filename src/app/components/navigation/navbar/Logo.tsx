@@ -35,9 +35,11 @@ const Logo = () => {
   return (
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-        <p className="font-mono text-2xl text-center font-semibold text-red-500 hover:font-bold">
-          Ben Warren
-        </p>
+        <span className="flex flex-row content-center items-center hover:text-red-600  text-red-400 ">
+          <p className="font-mono text-2xl text-center font-semibold ml-3">
+            ~/BW
+          </p>
+        </span>
       </Link>
       <div
         style={{
