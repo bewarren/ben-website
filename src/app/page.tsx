@@ -7,23 +7,41 @@ import coding from "../../assets/coding.jpg";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col ">
       <div className="flex flex-col items-center  min-h-screen justify-around ">
-        <div className="relative w-full max-x-xl">
-          <div className="absolute top-0 left-62 w-96 h-96 bg-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob"></div>
+        <div
+          className="relative w-full max-x-xl 
+    
+    "
+        >
+          {/* <div className="absolute top-0 left-62 w-96 h-96 bg-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob"></div>
           <div className="absolute top-0 right-20 md:w-96 md:h-96 sm:w-0 sm:h-0 bg-blue-400 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-2000"></div>
           <div className="absolute -bottom-4 left-30 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div>
-          <div className="absolute -bottom-4 right-20 md:w-96 md:h-96 sm:w-0 sm:h-0 bg-green-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div>
-          <div className="flex flex-col items-center -mt-20">
-            <h2 className="text-6xl text-center font-semibold">Hi, I'm Ben</h2>
-            <h4 className="text-4xl text-center leading-normal mt-16 mx-10 font-medium">
-              I am a full stack developer based in Cape Town.
+          <div className="absolute -bottom-4 right-20 md:w-96 md:h-96 sm:w-0 sm:h-0 bg-green-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div> */}
+          <div className="flex flex-col items-center ">
+            <h2
+              className="text-7xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r
+    from-red-300
+    via-red-500
+    to-blue-700
+    animate-gradient-xy pb-2"
+            >
+              Benjamin Warren
+            </h2>
+            <h4
+              className="text-4xl text-center leading-normal mt-16 mx-10 font-medium text-transparent bg-clip-text bg-gradient-to-r
+    from-yellow-300
+    via-red-500
+    to-red-700
+    animate-gradient-xy"
+            >
+              Full stack developer - Cape Town, ZA
             </h4>
           </div>
         </div>
       </div>
       <div
-        className="flex flex-col min-h-screen justify-around bg-red-800 pt-20"
+        className="flex flex-col min-h-screen justify-around bg-red-700 pt-20"
         id="about"
       >
         <div className="md:px-10 sm:px-2 h-max ">

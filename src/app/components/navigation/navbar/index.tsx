@@ -6,7 +6,7 @@ import Logo from "./Logo";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-20 sticky top-0  bg-white">
+      <div className="w-full h-20 sticky top-0">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
@@ -29,17 +29,8 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             </button>
             <ul className="hidden md:flex gap-x-8">
               <li>
-                <Link href="/#about">
-                  <p className="hover:text-red-500 font-medium text-lg">
-                    About me
-                  </p>
-                </Link>
-              </li>
-              <li>
                 <Link href="/projects">
-                  <p className="hover:text-red-500 font-medium text-lg">
-                    Projects
-                  </p>
+                  <p className="hover:text-red-500">Projects</p>
                 </Link>
               </li>
             </ul>
