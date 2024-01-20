@@ -18,6 +18,7 @@ const config: Config = {
         "gradient-x": "gradient-x 3s ease infinite",
         "gradient-y": "gradient-y 3s ease infinite",
         "gradient-xy": "gradient-xy 3s ease infinite",
+        gradient: "gradient 10s linear infinite",
       },
       keyframes: {
         blob: {
@@ -47,11 +48,11 @@ const config: Config = {
         "gradient-x": {
           "0%, 100%": {
             "background-size": "200% 200%",
-            "background-position": "left center",
+            "background-position": "left",
           },
           "50%": {
             "background-size": "200% 200%",
-            "background-position": "right center",
+            "background-position": "right",
           },
         },
         "gradient-xy": {
@@ -63,6 +64,9 @@ const config: Config = {
             "background-size": "200% 200%",
             "background-position": "right center",
           },
+        },
+        gradient: {
+          to: { "background-position": "200% center" },
         },
       },
     },

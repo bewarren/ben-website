@@ -14,29 +14,13 @@ export default function Home() {
     
     "
         >
-          {/* <div className="absolute top-0 left-62 w-96 h-96 bg-red-400 rounded-full mix-blend-multiply filter blur-xl opacity-80 animate-blob"></div>
-          <div className="absolute top-0 right-20 md:w-96 md:h-96 sm:w-0 sm:h-0 bg-blue-400 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-2000"></div>
-          <div className="absolute -bottom-4 left-30 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div>
-          <div className="absolute -bottom-4 right-20 md:w-96 md:h-96 sm:w-0 sm:h-0 bg-green-300 rounded-full mix-blend-multiply blur-xl opacity-80 animate-blob animation-delay-4000"></div> */}
           <div className="flex flex-col items-center ">
-            <h2
-              className="text-7xl text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r
-    from-red-300
-    via-red-500
-    to-blue-700
-    animate-gradient-xy pb-2"
-            >
+            <p className="text-6xl pb-10 md:text-8xl text-center font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.red.400),theme(colors.red.300),theme(colors.pink.400),theme(colors.orange.300),theme(colors.pink.400),theme(colors.red.600),theme(colors.red.400))] bg-[length:200%_auto] animate-gradient">
               Benjamin Warren
-            </h2>
-            <h4
-              className="text-4xl text-center leading-normal mt-16 mx-10 font-medium text-transparent bg-clip-text bg-gradient-to-r
-    from-yellow-300
-    via-red-500
-    to-red-700
-    animate-gradient-xy"
-            >
+            </p>
+            <p className="text-3xl md:text-4xl mt-20 text-center font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.red.400),theme(colors.red.300),theme(colors.pink.400),theme(colors.orange.300),theme(colors.pink.400),theme(colors.red.600),theme(colors.red.400))] bg-[length:200%_auto] animate-gradient">
               Full stack developer - Cape Town, ZA
-            </h4>
+            </p>
           </div>
         </div>
       </div>
@@ -49,13 +33,12 @@ export default function Home() {
           <div className="flex lg:flex-row md:flex-col sm:flex-col flex-col align-middle my-32 items-center">
             <Image src={me} alt="my image" className="rounded-md  w-72 h-72 " />
             <p className="text-2xl tracking-wide leading-loose text-white md:px-20 sm:px-10 px-10 lg:mt-0 mt-20">
-              Hi, I'm Ben. I am a Cape Town-based full-stack developer, with a
-              physics and data science background. I have worked as a full-stack
-              developer at Skybound Capital since 2021, building internal tools
-              for analysts and directors. Prior to this, I completed a Masters
-              Degree in Physics at the University of Cape Town where I did
-              research for the ATLAS experiment. I also have a Physics degree
-              from The University of Chicago.
+              I am a full stack developer with a background in physics and data
+              science. I have worked at Skybound Capital since 2021, where I
+              build interesting financial tools. I used to do some research for
+              the ATLAS experiment at CERN. I completed a Masters Degree in
+              Physics at the University of Cape Town. I also have a Physics
+              degree from The University of Chicago.
             </p>
           </div>
           <div className="flex flex-grow lg:flex-row flex-col mx-auto justify-around rounded-md w-3/4 items-center align-middle">
