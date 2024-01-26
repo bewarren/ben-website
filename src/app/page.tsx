@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="flex flex-col min-h-screen justify-around pt-20 bg-[linear-gradient(to_top_right,theme(colors.orange.600),theme(colors.orange.500),theme(colors.red.500),theme(colors.red.400),theme(colors.red.500),theme(colors.pink.500),theme(colors.pink.600))] bg-[length:200%_auto] animate-gradientAngle"
+        className="flex flex-col min-h-screen justify-around pt-20 bg-[linear-gradient(to_top_right,theme(colors.orange.600),theme(colors.orange.500),theme(colors.red.600),theme(colors.red.500),theme(colors.red.600),theme(colors.pink.500),theme(colors.pink.600))] bg-[length:200%_auto] animate-gradientAngle"
         id="about"
       >
         <div className="md:px-10 sm:px-2 h-max ">
