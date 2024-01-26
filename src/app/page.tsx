@@ -15,30 +15,32 @@ export default function Home() {
     "
         >
           <div className="flex flex-col items-center ">
-            <p className="text-6xl pb-10 md:text-8xl text-center font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.red.400),theme(colors.red.300),theme(colors.pink.400),theme(colors.orange.300),theme(colors.pink.400),theme(colors.red.600),theme(colors.red.400))] bg-[length:200%_auto] animate-gradient">
+            <p className="text-6xl pb-10 md:text-8xl text-center font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.red.600),theme(colors.red.400),theme(colors.pink.500),theme(colors.orange.300),theme(colors.pink.500),theme(colors.red.400),theme(colors.red.600))] bg-[length:200%_auto] animate-gradient">
               Benjamin Warren
             </p>
-            <p className="text-3xl md:text-4xl mt-20 text-center font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.red.400),theme(colors.red.300),theme(colors.pink.400),theme(colors.orange.300),theme(colors.pink.400),theme(colors.red.600),theme(colors.red.400))] bg-[length:200%_auto] animate-gradient">
+            <p className="text-3xl md:text-4xl mt-20 text-center font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.red.600),theme(colors.red.400),theme(colors.pink.500),theme(colors.orange.300),theme(colors.pink.500),theme(colors.red.400),theme(colors.red.600))] bg-[length:200%_auto] animate-gradient">
               Full stack developer - Cape Town, ZA
             </p>
           </div>
         </div>
       </div>
       <div
-        className="flex flex-col min-h-screen justify-around bg-red-700 pt-20"
+        className="flex flex-col min-h-screen justify-around pt-20 bg-[linear-gradient(to_top_right,theme(colors.orange.600),theme(colors.orange.500),theme(colors.red.500),theme(colors.red.400),theme(colors.red.500),theme(colors.pink.500),theme(colors.pink.600))] bg-[length:200%_auto] animate-gradientAngle"
         id="about"
       >
         <div className="md:px-10 sm:px-2 h-max ">
-          <h1 className="text-4xl text-white text-center ">About me </h1>
+          <h1 className="text-5xl mt-20 font-bold text-white text-center ">
+            About me{" "}
+          </h1>
           <div className="flex lg:flex-row md:flex-col sm:flex-col flex-col align-middle my-32 items-center">
             <Image src={me} alt="my image" className="rounded-md  w-72 h-72 " />
-            <p className="text-2xl tracking-wide leading-loose text-white md:px-20 sm:px-10 px-10 lg:mt-0 mt-20">
+            <p className="text-2xl font-semibold tracking-wide leading-loose text-white md:px-20 sm:px-10 px-10 lg:mt-0 mt-20">
               I am a full stack developer with a background in physics and data
-              science. I have worked at Skybound Capital since 2021, where I
-              build interesting financial tools. I used to do some research for
-              the ATLAS experiment at CERN. I completed a Masters Degree in
-              Physics at the University of Cape Town. I also have a Physics
-              degree from The University of Chicago.
+              science. I work at Skybound Capital where I build interesting
+              financial tools. Before that, I used to do some research for the
+              ATLAS experiment at CERN. I have a Masters Degree in Physics from
+              the University of Cape Town and a Physics degree from The
+              University of Chicago.
             </p>
           </div>
           <div className="flex flex-grow lg:flex-row flex-col mx-auto justify-around rounded-md w-3/4 items-center align-middle">

@@ -19,6 +19,7 @@ const config: Config = {
         "gradient-y": "gradient-y 3s ease infinite",
         "gradient-xy": "gradient-xy 3s ease infinite",
         gradient: "gradient 10s linear infinite",
+        gradientAngle: "gradient-xy 10s linear infinite",
       },
       keyframes: {
         blob: {

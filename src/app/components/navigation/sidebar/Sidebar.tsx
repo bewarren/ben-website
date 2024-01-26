@@ -17,7 +17,6 @@ const Sidebar = ({
           top: ` ${isOpen ? "0" : "-100%"}`,
         }}
       >
-        <Logo />
         <button className="absolute right-0 p-5 " onClick={toggle}>
           {/* Close icon */}
           <svg
@@ -33,17 +32,17 @@ const Sidebar = ({
           </svg>
         </button>
 
-        <ul className="sidebar-nav text-center leading-relaxed text-xl">
+        <ul className="sidebar-nav justify-start text-center leading-relaxed">
           <li>
             <Link href="/#about" onClick={toggle}>
-              <p className="hover:text-red-600  text-red-400 font-medium text-lg">
+              <p className="hover:text-red-600  text-red-400 text-2xl font-medium mb-4">
                 About Me
               </p>
             </Link>
           </li>
           <li>
             <Link href="/projects" onClick={toggle}>
-              <p className="hover:text-red-600  text-red-400 font-medium text-lg">
+              <p className="hover:text-red-600  text-red-400  text-2xl font-medium">
                 Projects
               </p>
             </Link>
