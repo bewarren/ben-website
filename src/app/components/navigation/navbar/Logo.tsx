@@ -21,7 +21,7 @@ const Logo = () => {
   const [showButton, setShowButton] = useState(false);
 
   const changeNavButton = () => {
-    if (window.scrollY >= 400 && window.innerWidth < 768) {
+    if (window.scrollY >= 1000 && window.innerWidth < 768) {
       setShowButton(true);
     } else {
       setShowButton(false);
@@ -34,9 +34,9 @@ const Logo = () => {
 
   return (
     <>
-      <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-        <span className="flex flex-row content-center items-center hover:text-red-600  text-red-400 ">
-          <p className="font-mono text-2xl text-center font-semibold ml-3">
+      <Link href="/" style={{ display: showButton ? "block" : "block" }}>
+        <span className="flex flex-row content-center items-center hover:text-red-600  text-red-400">
+          <p className="font-mono text-2xl text-center font-semibold ml-3 ">
             ~/BW
           </p>
         </span>
