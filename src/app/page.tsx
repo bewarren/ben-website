@@ -8,7 +8,10 @@ import coding from "../../assets/coding.jpg";
 export default function Home() {
   return (
     <main className="flex flex-col ">
-      <div className="flex flex-col items-center  min-h-screen justify-around ">
+      <div
+        className="flex flex-col items-center  min-h-screen justify-around "
+        id="top"
+      >
         <div
           className="relative w-full max-x-xl 
     

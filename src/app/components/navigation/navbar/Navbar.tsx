@@ -35,13 +35,6 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   </p>
                 </Link>
               </li>
-              <li>
-                <Link href="/projects">
-                  <p className="hover:text-red-600  text-red-400 font-medium text-lg">
-                    Projects
-                  </p>
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

@@ -40,13 +40,6 @@ const Sidebar = ({
               </p>
             </Link>
           </li>
-          <li>
-            <Link href="/projects" onClick={toggle}>
-              <p className="hover:text-red-600  text-red-400  text-2xl font-medium">
-                Projects
-              </p>
-            </Link>
-          </li>
         </ul>
       </div>
     </>
